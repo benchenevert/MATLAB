@@ -1,0 +1,17 @@
+%% Question 4
+
+%%Variables
+s = sum(r,"all")
+r = rand
+
+while (sum(r)<20)
+       r = rand
+     if (sum(r)>20)
+
+         s = sum(r,'all')
+    end
+end
+disp(s);
+j = 
+for (j < 20)
+        r = rand
