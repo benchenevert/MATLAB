@@ -1,8 +1,10 @@
-A = [1 2 3; 4 5 6; 7 8 9];
-%v = 1:10
+a = -1
 
-%disp(A(2,2));
-%disp(v(5));
-
-disp(A(:,3));
-disp(A(3,:));
+%% Code
+if a > 0
+    x = 0
+elseif a < 0
+    x = 1
+else
+    x = 2
+end
