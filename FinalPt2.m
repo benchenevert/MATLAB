@@ -1,7 +1,7 @@
 %% Second equation
 
 h = 0.01;
-x = 0:h:1;
+x = 0:h:10;
 y = zeros(size(x));
 y(1) = 0;
 n = numel(x)
